@@ -1,0 +1,36 @@
+#searchbar {
+  position: absolute;
+  left: 50%;
+  margin-top: 10%;
+  transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+}
+
+#logo {
+  
+  
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  width: 20%
+  
+}
+
+.ui.icon.input {
+  width: 50vw;
+}
+
+.prompt {
+  
+  text-align: center !important;
+  
+}
+
+.results {
+  
+  position: relative;
+  
+}
