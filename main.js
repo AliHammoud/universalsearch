@@ -44,5 +44,19 @@ $(document).ready(function () {
     ],
     fuzzySearch: true
   });
+  
+  $('.prompt').on('keydown', function (){
+    
+    $('.band').css('opacity', '0.5');
+    
+  });
+  
+  $('.prompt').on('keyup', function (){
+    
+    if ($('.prompt').val() == "") {
+      $('.band').css('opacity', '1');
+    }
+    
+  });
 
 });
