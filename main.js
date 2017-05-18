@@ -34,6 +34,16 @@ $(document).ready(function () {
       title: 'create new adhoc chart',
       url: 'https://projects.invisionapp.com/d/main#/console/10822833/230404111/preview',
       description: 'Start a new chart'
+    },
+    {
+      title: 'Invite Users',
+      url: 'https://projects.invisionapp.com/d/main#/console/10822833/230330958/preview',
+      description: 'Invite users to your organization'
+    },
+    {
+      title: 'View Profile',
+      url: 'https://projects.invisionapp.com/d/main#/console/10822833/229436478/preview',
+      description: 'Edit your user profile'
     }
   ];
 
